@@ -1,0 +1,4 @@
+unidad,ruta,parada_destino,distancia_actual_m,eta_estimado_min,tiempo_real_min,error_absoluto_min,error_porcentual,latencia_respuesta_ms
+R38-UNIDAD-01,Ruta 38,Instituto Tecnológico (ITSJR),290.20,1.20,1.35,0.15,11.11,320
+R38-UNIDAD-01,Ruta 38,Río Moctezuma / Claveles,3097.35,9.50,10.80,1.30,12.04,450
+R39-UNIDAD-02,Ruta 39,Instituto Tecnológico (ITSJR),178.15,0.85,0.90,0.05,5.56,290

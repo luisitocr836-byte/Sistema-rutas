@@ -1,0 +1,17 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+# Android generado
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/*.jks
+*.keystore
+# Configuración con claves reales (NO subir)
+config/app.json

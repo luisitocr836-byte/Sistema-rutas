@@ -1,0 +1,30 @@
+{
+  "name": "moviqro-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Worker ETA, importación de GeoJSON, generador de semillas y pruebas de MoviQro",
+  "type": "module",
+  "engines": {
+    "node": "^22.13.0 || ^24.3.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "worker": "tsx src/worker.ts",
+    "datos:generar": "tsx scripts/generar-derivados.ts",
+    "datos:importar": "tsx scripts/importar-geojson.ts",
+    "validacion:mae": "tsx scripts/reporte-mae.ts",
+    "sql:probar": "bash tests/sql/ejecutar_pruebas_sql.sh",
+    "simulador": "tsx scripts/simular.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "~5.6.3",
+    "vitest": "^2.1.0"
+  }
+}

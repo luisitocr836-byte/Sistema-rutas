@@ -1,0 +1,24 @@
+# Dependencias y artefactos
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Secretos (NUNCA versionar)
+.env
+.env.*
+!.env.example
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+*.log
+*.keystore
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+app-flutter/config/app.json
+app-flutter/.dart_tool/
+app-flutter/build/

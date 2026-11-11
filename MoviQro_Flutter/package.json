@@ -1,0 +1,15 @@
+{
+  "name": "moviqro",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MoviQro · consulta de rutas, GPS y ETA del transporte urbano de San Juan del Río (Qro.) — app Flutter + backend Supabase",
+  "engines": { "node": "^22.13.0 || ^24.3.0" },
+  "scripts": {
+    "instalar": "npm --prefix backend install",
+    "test": "npm --prefix backend test",
+    "typecheck": "npm --prefix backend run typecheck",
+    "worker": "npm --prefix backend run worker",
+    "simulador": "npm --prefix backend run simulador --",
+    "datos:generar": "npm --prefix backend run datos:generar"
+  }
+}
